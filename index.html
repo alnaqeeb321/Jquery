@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+<title> Luxury Cars </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/main.js"></script>
+<script src="js/photo-gallery.js"></script>
+<link rel="stylesheet" href="css/gallry.css">
+<link rel="stylesheet" href="css/style.css">
+
+  </head>
+<body>
+
+  <header>
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/imag3.jpeg" style="width:100%">
+    <div class="text">Luxury Cars</div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/imag1.jpeg" style="width:100%">
+    <div class="text">Luxury Cars</div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/imag2.jpeg" style="width:100%">
+    <div class="text">Luxury Cars</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+
+  </header>
+
+<script src="js/main.js"></script>
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="Shopping/index.html">Shopping</a>
+  <a href="contact_form.html">Contact</a>
+  <a href="pages.html">About me</a>
+</div>
+
+
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="images/imag2.jpeg" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>Jane Doe</h2>
+          <p class="title">CEO &amp; Founder</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>example@example.com</p>
+          <p><button class="button">   <a href="contact_form.html">Contact</a></button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="images/imag1.jpeg" alt="Mike" style="width:100%">
+        <div class="container">
+          <h2>Mike Ross</h2>
+          <p class="title">Art Director</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>example@example.com</p>
+          <p><button class="button"><a href="contact_form.html">Contact</a></button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="images/imag3.jpeg" alt="John" style="width:100%">
+        <div class="container">
+          <h2>John Doe</h2>
+          <p class="title">Designer</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>example@example.com</p>
+          <p><button class="button"><a href="contact_form.html">Contact</a></button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="main">
+
+
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> Fast</button>
+  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+  <button class="btn" onclick="filterSelection('people')"> Classic</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="images/4.jpg" alt="Mountains" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="images/1.jpg" alt="Lights" style="width:100%">
+      <h4>Lights</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="images/2.jpg" alt="Nature" style="width:100%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column cars">
+    <div class="content">
+      <img src="images/3.jpg" alt="Car" style="width:100%">
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="images/4.jpg" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="images/5.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="images/11.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="images/9.jpg" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="images/10.jpg" alt="Car" style="width:100%">
+      <h4>Lights</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+
+<link rel="stylesheet" href="css/s3slider.css">
+<script src="js/s3slider.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
